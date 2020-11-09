@@ -2,6 +2,7 @@
 Description=Run eye.service after 20 minutes
 
 [Timer]
+OnStartupSec=1200
 OnActiveSec=1200
 
 [Install]
