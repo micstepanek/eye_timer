@@ -2,7 +2,7 @@
 Description=Run eye.service every 20.33 minutes
 
 [Timer]
-OnActiveSec=12
+OnActiveSec=1200
 OnUnitActiveSec=1220
 
 [Install]
