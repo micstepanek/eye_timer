@@ -1,0 +1,6 @@
+[Unit]
+Description=Announce the end of timer in new urxvtc
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/urxvtc -e end_of_timer.sh
