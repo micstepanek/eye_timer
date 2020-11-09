@@ -1,5 +1,5 @@
 [Unit]
-Description=Run eye.service every 20 minutes
+Description=Run eye.service after 20 minutes
 
 [Timer]
 OnActiveSec=1200
